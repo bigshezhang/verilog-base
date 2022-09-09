@@ -1,0 +1,10 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Downloads/LANDrop/Seg-Time-Display/Seg-Time-Display.srcs/sources_1/new/frequency_division.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module frequency_division
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Downloads/LANDrop/Seg-Time-Display/Seg-Time-Display.srcs/sources_1/new/multi_segs_controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multi_segs_controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Downloads/LANDrop/Seg-Time-Display/Seg-Time-Display.srcs/sources_1/new/seg_single_display.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module seg_single_display
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Downloads/LANDrop/Seg-Time-Display/Seg-Time-Display.srcs/sources_1/new/time_display.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module time_display
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Downloads/LANDrop/Seg-Time-Display/Seg-Time-Display.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

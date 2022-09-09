@@ -1,0 +1,16 @@
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xlinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto f600d68d86ca40ad919b23bcb98b16bf --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot time_display_behav xil_defaultlib.time_display xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'work_mode' [C:/Users/Administrator/Downloads/LANDrop/Seg-Time-Display/Seg-Time-Display.srcs/sources_1/new/multi_segs_controller.v:43]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.frequency_division(Output_Freque...
+Compiling module xil_defaultlib.seg_single_display
+Compiling module xil_defaultlib.multi_segs_controller
+Compiling module xil_defaultlib.time_display
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot time_display_behav

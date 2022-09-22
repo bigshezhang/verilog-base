@@ -5,3 +5,5 @@
 ## 维护的项目：
 #### 8数码管驱动       => Seg_Display
 #### 时间显示工程      => Seg_Time_Display
+#### 计时器           => Time_Recorder
+#### 长ID显示         => ID_Display

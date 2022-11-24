@@ -1,0 +1,13 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+C:/Users/Administrator/Desktop/Code/verilog-base/SerialPort_to_SendData_2/SerialPort_to_SendData.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+C:/Users/Administrator/Desktop/Code/verilog-base/SerialPort_to_SendData_2/SerialPort_to_SendData.srcs/sim_1/new/uart_test.v,1669323013,verilog,,,,top_test,,,,,,,,
+C:/Users/Administrator/Desktop/Code/verilog-base/SerialPort_to_SendData_2/SerialPort_to_SendData.srcs/sources_1/imports/new/frequency_division.v,1663848740,verilog,,C:/Users/Administrator/Desktop/Code/verilog-base/SerialPort_to_SendData_2/SerialPort_to_SendData.srcs/sources_1/imports/new/id_display.v,,frequency_division,,,,,,,,
+C:/Users/Administrator/Desktop/Code/verilog-base/SerialPort_to_SendData_2/SerialPort_to_SendData.srcs/sources_1/imports/new/id_display.v,1669305319,verilog,,C:/Users/Administrator/Desktop/Code/verilog-base/SerialPort_to_SendData_2/SerialPort_to_SendData.srcs/sources_1/imports/new/multi_segs_controller.v,,id_display,,,,,,,,
+C:/Users/Administrator/Desktop/Code/verilog-base/SerialPort_to_SendData_2/SerialPort_to_SendData.srcs/sources_1/imports/new/multi_segs_controller.v,1669305285,verilog,,C:/Users/Administrator/Desktop/Code/verilog-base/SerialPort_to_SendData_2/SerialPort_to_SendData.srcs/sources_1/imports/new/time_display.v,,multi_segs_controller,,,,,,,,
+C:/Users/Administrator/Desktop/Code/verilog-base/SerialPort_to_SendData_2/SerialPort_to_SendData.srcs/sources_1/imports/new/time_display.v,1669325282,verilog,,C:/Users/Administrator/Desktop/Code/verilog-base/SerialPort_to_SendData_2/SerialPort_to_SendData.srcs/sources_1/imports/new/top.v,,time_recorder,,,,,,,,
+C:/Users/Administrator/Desktop/Code/verilog-base/SerialPort_to_SendData_2/SerialPort_to_SendData.srcs/sources_1/imports/new/top.v,1669326409,verilog,,C:/Users/Administrator/Desktop/Code/verilog-base/SerialPort_to_SendData_2/SerialPort_to_SendData.srcs/sources_1/new/uart.v,,top,,,,,,,,
+C:/Users/Administrator/Desktop/Code/verilog-base/SerialPort_to_SendData_2/SerialPort_to_SendData.srcs/sources_1/new/baudrate_division.v,1669316986,verilog,,C:/Users/Administrator/Desktop/Code/verilog-base/SerialPort_to_SendData_2/SerialPort_to_SendData.srcs/sources_1/imports/new/frequency_division.v,,baudrate_division,,,,,,,,
+C:/Users/Administrator/Desktop/Code/verilog-base/SerialPort_to_SendData_2/SerialPort_to_SendData.srcs/sources_1/new/uart.v,1669317027,verilog,,C:/Users/Administrator/Desktop/Code/verilog-base/SerialPort_to_SendData_2/SerialPort_to_SendData.srcs/sim_1/new/uart_test.v,,uart,,,,,,,,

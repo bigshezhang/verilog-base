@@ -1,0 +1,16 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../SerialPort_to_SendData.srcs/sources_1/new/baudrate_division.v" \
+"../../../../SerialPort_to_SendData.srcs/sources_1/imports/new/frequency_division.v" \
+"../../../../SerialPort_to_SendData.srcs/sources_1/imports/new/id_display.v" \
+"../../../../SerialPort_to_SendData.srcs/sources_1/imports/new/multi_segs_controller.v" \
+"../../../../SerialPort_to_SendData.srcs/sources_1/imports/new/time_display.v" \
+"../../../../SerialPort_to_SendData.srcs/sources_1/imports/new/top.v" \
+"../../../../SerialPort_to_SendData.srcs/sources_1/new/uart.v" \
+"../../../../SerialPort_to_SendData.srcs/sim_1/new/uart_test.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

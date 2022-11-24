@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="top_test_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="top_test" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="19813470000000fs"></ZoomStartTime>
+      <ZoomEndTime time="25873470000001fs"></ZoomEndTime>
+      <Cursor1Time time="22073470000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="234"></NameColumnWidth>
+      <ValueColumnWidth column_width="145"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="9" />
+   <wvobject fp_name="/top_test/sys_clk_in" type="logic">
+      <obj_property name="ElementShortName">sys_clk_in</obj_property>
+      <obj_property name="ObjectShortName">sys_clk_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_test/PC_Uart_txd" type="logic">
+      <obj_property name="ElementShortName">PC_Uart_txd</obj_property>
+      <obj_property name="ObjectShortName">PC_Uart_txd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_test/top_test/remained_bit_to_send" type="array">
+      <obj_property name="ElementShortName">remained_bit_to_send[3:0]</obj_property>
+      <obj_property name="ObjectShortName">remained_bit_to_send[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_test/top_test/start_btn_function[4]" type="logic">
+      <obj_property name="ElementShortName">[4]</obj_property>
+      <obj_property name="ObjectShortName">[4]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_test/top_test/is_single_uart_sending" type="logic">
+      <obj_property name="ElementShortName">is_single_uart_sending</obj_property>
+      <obj_property name="ObjectShortName">is_single_uart_sending</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_test/top_test/is_single_uart_sending_finished" type="logic">
+      <obj_property name="ElementShortName">is_single_uart_sending_finished</obj_property>
+      <obj_property name="ObjectShortName">is_single_uart_sending_finished</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_test/top_test/is_all_uart_sending" type="logic">
+      <obj_property name="ElementShortName">is_all_uart_sending</obj_property>
+      <obj_property name="ObjectShortName">is_all_uart_sending</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_test/top_test/id_str" type="array">
+      <obj_property name="ElementShortName">id_str[0:9][7:0]</obj_property>
+      <obj_property name="ObjectShortName">id_str[0:9][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_test/top_test/uart_tx/fresh_data" type="logic">
+      <obj_property name="ElementShortName">fresh_data</obj_property>
+      <obj_property name="ObjectShortName">fresh_data</obj_property>
+   </wvobject>
+</wave_config>

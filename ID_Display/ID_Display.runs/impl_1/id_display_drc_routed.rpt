@@ -1,8 +1,8 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 ------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
-| Date         : Thu Sep 22 23:10:53 2022
-| Host         : TWT-Studio-PC running 64-bit major release  (build 9200)
+| Date         : Thu Nov 24 23:05:36 2022
+| Host         : WIN-0865SE62T3L running 64-bit major release  (build 9200)
 | Command      : report_drc -file id_display_drc_routed.rpt -pb id_display_drc_routed.pb -rpx id_display_drc_routed.rpx
 | Design       : id_display
 | Device       : xc7a35tcsg324-1

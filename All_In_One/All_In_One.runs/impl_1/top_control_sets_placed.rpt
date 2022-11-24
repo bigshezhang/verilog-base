@@ -1,0 +1,86 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Fri Oct 21 03:11:46 2022
+| Host         : WIN-0865SE62T3L running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file top_control_sets_placed.rpt
+| Design       : top
+| Device       : xc7a35t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    18 |
+| Unused register locations in slices containing registers |    70 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      1 |            2 |
+|      3 |            1 |
+|      5 |            2 |
+|      7 |            2 |
+|    16+ |           11 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              96 |           30 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |             100 |           27 |
+| Yes          | No                    | No                     |             119 |           38 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |             103 |           33 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++-----------------------+-------------------------------------------+----------------------------------------------+------------------+----------------+
+|      Clock Signal     |               Enable Signal               |               Set/Reset Signal               | Slice Load Count | Bel Load Count |
++-----------------------+-------------------------------------------+----------------------------------------------+------------------+----------------+
+|  sys_clk_in_IBUF_BUFG | timer/is_in_delay_btn_3                   | timer/delay_cnt_btn_3                        |                1 |              1 |
+|  sys_clk_in_IBUF_BUFG | is_in_delay_btn_0                         | delay_cnt_btn_0[5]_i_1_n_0                   |                1 |              1 |
+|  sys_clk_in_IBUF_BUFG | timer/is_in_delay_btn_2                   |                                              |                1 |              3 |
+|  sys_clk_in_IBUF_BUFG | timer/second_update/is_second_need_update | timer/second[5]_i_1_n_0                      |                4 |              5 |
+|  sys_clk_in_IBUF_BUFG | timer/is_in_delay_btn_2                   | timer/delay_cnt_btn_2                        |                2 |              5 |
+|  sys_clk_in_IBUF_BUFG | timer/is_in_delay_btn_3                   |                                              |                2 |              7 |
+|  sys_clk_in_IBUF_BUFG | is_in_delay_btn_0                         |                                              |                2 |              7 |
+|  sys_clk_in_IBUF_BUFG |                                           | display_time/segs_division/cnt[0]_i_1__1_n_0 |                5 |             17 |
+|  clk_out_BUFG         |                                           |                                              |               10 |             23 |
+|  sys_clk_in_IBUF_BUFG |                                           | timer/second_update/cnt[0]_i_1_n_0           |                7 |             27 |
+|  sys_clk_in_IBUF_BUFG |                                           | ider/second_update/cnt[0]_i_1__0_n_0         |                7 |             27 |
+|  clk_out_BUFG         |                                           | display_time/bcd_array_pos[31]_i_1_n_0       |                8 |             29 |
+|  sys_clk_in_IBUF_BUFG | timer/second_update/is_second_need_update | timer/second_update/is_in_delay_btn_3_reg_1  |                8 |             29 |
+|  sys_clk_in_IBUF_BUFG | timer/second_update/is_second_need_update | timer/second_update/is_in_delay_btn_3_reg_0  |                9 |             30 |
+|  sys_clk_in_IBUF_BUFG | ider/second_update/sel                    | ider/second_update/head_step                 |                8 |             32 |
+|  sys_clk_in_IBUF_BUFG | timer/second_update/is_in_delay_btn_3_reg |                                              |               24 |             50 |
+|  sys_clk_in_IBUF_BUFG | ider/second_update/sel                    |                                              |                9 |             52 |
+|  sys_clk_in_IBUF_BUFG |                                           |                                              |               20 |             73 |
++-----------------------+-------------------------------------------+----------------------------------------------+------------------+----------------+
+
+

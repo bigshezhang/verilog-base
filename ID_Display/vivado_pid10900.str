@@ -1,0 +1,108 @@
+/*
+
+Xilinx Vivado v2018.3 (64-bit) [Major: 2018, Minor: 3]
+SW Build: 2405991 on Thu Dec  6 23:38:27 MST 2018
+IP Build: 2404404 on Fri Dec  7 01:43:56 MST 2018
+
+Process ID (PID): 10900
+License: Customer
+
+Current time: 	Thu Nov 24 23:02:49 CST 2022
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1920x1080
+Screen resolution (DPI): 120
+Available screens: 2
+Available disk space: 26 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=15
+
+Java version: 	9.0.4 64-bit
+Java home: 	E:/Xlinx/Vivado/2018.3/tps/win64/jre9.0.4
+Java executable location: 	E:/Xlinx/Vivado/2018.3/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	Administrator
+User home directory: C:/Users/Administrator
+User working directory: C:/Users/Administrator/Desktop/Code/verilog-base/ID_Display
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+RDI_BASEROOT: E:/Xlinx/Vivado
+HDI_APPROOT: E:/Xlinx/Vivado/2018.3
+RDI_DATADIR: E:/Xlinx/Vivado/2018.3/data
+RDI_BINDIR: E:/Xlinx/Vivado/2018.3/bin
+
+Vivado preferences file location: C:/Users/Administrator/AppData/Roaming/Xilinx/Vivado/2018.3/vivado.xml
+Vivado preferences directory: C:/Users/Administrator/AppData/Roaming/Xilinx/Vivado/2018.3/
+Vivado layouts directory: C:/Users/Administrator/AppData/Roaming/Xilinx/Vivado/2018.3/layouts
+PlanAhead jar file location: 	E:/Xlinx/Vivado/2018.3/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/Administrator/Desktop/Code/verilog-base/ID_Display/vivado.log
+Vivado journal file location: 	C:/Users/Administrator/Desktop/Code/verilog-base/ID_Display/vivado.jou
+Engine tmp dir: 	C:/Users/Administrator/Desktop/Code/verilog-base/ID_Display/.Xil/Vivado-10900-WIN-0865SE62T3L
+
+Xilinx Environment Variables
+----------------------------
+DART_SDK: J:\Dart\dart-sdk
+XILINX: E:/Xlinx/Vivado/2018.3/ids_lite/ISE
+XILINX_DSP: E:/Xlinx/Vivado/2018.3/ids_lite/ISE
+XILINX_PLANAHEAD: E:/Xlinx/Vivado/2018.3
+XILINX_SDK: E:/Xlinx/SDK/2018.3
+XILINX_VIVADO: E:/Xlinx/Vivado/2018.3
+XILINX_VIVADO_HLS: E:/Xlinx/Vivado/2018.3
+
+
+GUI allocated memory:	154 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 609 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bx (cp):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\Administrator\Desktop\Code\verilog-base\ID_Display\ID_Display.xpr. Version: Vivado v2018.3 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/Administrator/Desktop/Code/verilog-base/ID_Display/ID_Display.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/Administrator/Desktop/Code/verilog-base/ID_Display/ID_Display.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'C:/Users/Administrator/Desktop/MyVivadoProject/ID_Display' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Xlinx/Vivado/2018.3/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 84 MB (+85095kb) [00:00:09]
+// [Engine Memory]: 641 MB (+520387kb) [00:00:09]
+// [GUI Memory]: 101 MB (+13925kb) [00:00:10]
+// [GUI Memory]: 106 MB (+247kb) [00:00:11]
+// WARNING: HEventQueue.dispatchEvent() is taking  3748 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 698 MB. GUI used memory: 50 MB. Current time: 11/24/22, 11:02:54 PM CST
+// [Engine Memory]: 698 MB (+26063kb) [00:00:12]
+// Tcl Message: open_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:06 . Memory (MB): peak = 722.656 ; gain = 120.883 
+// Project name: ID_Display; location: C:/Users/Administrator/Desktop/Code/verilog-base/ID_Display; part: xc7a35tcsg324-1

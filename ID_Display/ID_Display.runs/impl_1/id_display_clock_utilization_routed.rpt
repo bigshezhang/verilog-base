@@ -1,8 +1,8 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
-| Date         : Thu Sep 22 23:10:54 2022
-| Host         : TWT-Studio-PC running 64-bit major release  (build 9200)
+| Date         : Thu Nov 24 23:05:38 2022
+| Host         : WIN-0865SE62T3L running 64-bit major release  (build 9200)
 | Command      : report_clock_utilization -file id_display_clock_utilization_routed.rpt
 | Design       : id_display
 | Device       : 7a35t-csg324

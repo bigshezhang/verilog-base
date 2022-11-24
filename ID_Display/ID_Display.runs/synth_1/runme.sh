@@ -11,9 +11,9 @@ echo "Please update the PATH and LD_LIBRARY_PATH variables below, before executi
 exit
 
 if [ -z "$PATH" ]; then
-  PATH=D:/Xlinx/SDK/2018.3/bin;D:/Xlinx/Vivado/2018.3/ids_lite/ISE/bin/nt64;D:/Xlinx/Vivado/2018.3/ids_lite/ISE/lib/nt64:D:/Xlinx/Vivado/2018.3/bin
+  PATH=E:/Xlinx/SDK/2018.3/bin;E:/Xlinx/Vivado/2018.3/ids_lite/ISE/bin/nt64;E:/Xlinx/Vivado/2018.3/ids_lite/ISE/lib/nt64:E:/Xlinx/Vivado/2018.3/bin
 else
-  PATH=D:/Xlinx/SDK/2018.3/bin;D:/Xlinx/Vivado/2018.3/ids_lite/ISE/bin/nt64;D:/Xlinx/Vivado/2018.3/ids_lite/ISE/lib/nt64:D:/Xlinx/Vivado/2018.3/bin:$PATH
+  PATH=E:/Xlinx/SDK/2018.3/bin;E:/Xlinx/Vivado/2018.3/ids_lite/ISE/bin/nt64;E:/Xlinx/Vivado/2018.3/ids_lite/ISE/lib/nt64:E:/Xlinx/Vivado/2018.3/bin:$PATH
 fi
 export PATH
 
@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/Administrator/Desktop/MyVivadoProject/ID_Display/ID_Display.runs/synth_1'
+HD_PWD='C:/Users/Administrator/Desktop/Code/verilog-base/ID_Display/ID_Display.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

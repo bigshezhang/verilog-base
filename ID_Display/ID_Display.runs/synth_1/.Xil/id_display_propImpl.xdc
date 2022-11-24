@@ -1,4 +1,4 @@
-set_property SRC_FILE_INFO {cfile:C:/Users/Administrator/Desktop/MyVivadoProject/ID_Display/ID_Display.srcs/constrs_1/imports/new/top.xdc rfile:../../../ID_Display.srcs/constrs_1/imports/new/top.xdc id:1} [current_design]
+set_property SRC_FILE_INFO {cfile:C:/Users/Administrator/Desktop/Code/verilog-base/ID_Display/ID_Display.srcs/constrs_1/imports/new/top.xdc rfile:../../../ID_Display.srcs/constrs_1/imports/new/top.xdc id:1} [current_design]
 set_property src_info {type:XDC file:1 line:1 export:INPUT save:INPUT read:READ} [current_design]
 /////////////////////////////系统时钟和复位////////////////////////////////////
 set_property src_info {type:XDC file:1 line:2 export:INPUT save:INPUT read:READ} [current_design]
